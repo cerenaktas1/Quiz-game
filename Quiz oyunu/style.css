@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 50px;
+    padding: 0;
+}
+
+#container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fdfdfd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#start, #scoreBlock {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #030b21;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#quiz, #scoreBlock {
+    display: none;
+}
+
+#quizQuestion {
+    margin-bottom: 10px;
+}
+
+.choiceButton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: #9ab6dd;
+    border: 1px solid #4976d6;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choiceButton:hover {
+    background-color: #e0e0e0;
+}
+
+#choiceResponse {
+    margin-top: 10px;
+}
+
+#quizAgain {
+    margin-top: 20px;
+}
+#quizImg {
+    text-align: center; /* Resmi yatay olarak ortala */
+}
+
+#quizImg img {
+    max-width: 50%; /* Resmin maksimum genişliğini belirle */
+    height: 300px; /* Oranları koruyarak resmin boyutunu otomatik olarak ayarla */
+    display: block; /* Resmi blok düzende yerleştir */
+    margin: 0 auto; /* Resmi yatay olarak ortala */
+    margin-bottom: 10px;
+}
+
+
